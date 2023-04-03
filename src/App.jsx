@@ -13,7 +13,6 @@ import Item from './components/Item.jsx';
 function App() {
   const [data, setData] = useState(null);
   const [listData, setListData] = useState([]);
-  //const [url, setURL] = useState(`https://pokeapi.co/api/v2/pokemon/?limit=151`); //total count is 1281
   const url = 'https://pokeapi.co/api/v2/pokemon/?limit=151'
    
   const fetchData = async () => {

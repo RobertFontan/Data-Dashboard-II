@@ -28,10 +28,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/ovs9mPH.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LICEcap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -39,8 +39,7 @@ GIF created with ...
 
 ## Notes
 
-Initially, I was trying to avoid reformating my code to make Link, Routes, etc. work but after learning more I realized that's it is much easier than
-I thought it was. Learning recharts was fun and I see myself going back to it!
+Initially, I was trying to avoid reformating my code to make Link, Routes, etc. work but after learning more I realized that's it is much easier than I thought it was. Learning recharts was fun and I see myself going back to it!
 
 ## License
 
