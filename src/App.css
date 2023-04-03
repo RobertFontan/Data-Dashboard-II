@@ -27,7 +27,6 @@ ul{
 .content{
   width: 100%;
   display: flex;
-  padding-left: 20px;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -129,24 +128,56 @@ nav .right{
 
 .Item{
   display: flex;
+  flex-direction: column;
   background-color: darkblue;
-  justify-content: center;
   width: 75%;
+  height: 500px;
 }
 
-.left{
+.Item img{
+  height: 250px;
+  width: auto;
+}
+
+.Item .top{
+  display: flex;
+  padding: 0px;
+}
+
+.Item .bottom{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+
+.Item .stats{
   display: flex;
   flex-direction: column;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+
 }
 
-.right{
+.lists{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  background-color: gray;
+  border-radius: 10px;
 }
 
 
-.stats{
-  display: flex;
-  flex-direction: column;
+.moves {
+  height: 200px;
+  overflow: hidden; 
+  overflow-y:scroll;
+  background-color: gray;
 }
+
+
+
 
 

@@ -26,6 +26,8 @@ const Item = () => {
             abilities: response.data.abilities,
             sprite: response.data.sprites.front_default,
             shiny: response.data.sprites.front_shiny,
+            backSprite: response.data.sprites.back_default,
+            backShiny: response.data.sprites.back_shiny,
             moves: response.data.moves.map((e) => e.move.name)
         }
         setMon(result)
@@ -47,15 +49,17 @@ const Item = () => {
 
     return (
         <div className="Item">
-            <div className="left">
+            <div className="top">
                 <img src={mon.sprite} alt="Sprite image for selected pokemon" />
+                <img src={mon.backSprite} />
                 <img src={mon.shiny} alt="Shiny sprite image for selected pokemon" />
+                <img src={mon.backShiny} />
             </div>
-            <div className="right">
+            <div className="bottom">
                 <div className="stats">
-                    <h3>{capitalizeFirstLetter(mon.name)}</h3>
-                    <h5>Height: {mon.height}</h5>
-                    <h5>Weight: {mon.weight}</h5>
+                    <h2>{capitalizeFirstLetter(mon.name)}</h2>
+                    <h4>Height: {mon.height} decimeter</h4>
+                    <h4>Weight: {mon.weight} hectogram</h4>
                 </div>
                 
                 <div className="lists">
@@ -67,8 +71,7 @@ const Item = () => {
                         Abilites:
                         {mon.abilities.map((e) => (<li> {e.ability.name} </li>))}
                     </ul>
-                    <ul>
-                        Moves:
+                    <ul className="moves">
                         {mon.moves.map((e) => (<li> {e} </li>))}
                     </ul>
                 </div>
