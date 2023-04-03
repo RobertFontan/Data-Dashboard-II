@@ -1,0 +1,152 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.dashboard{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  top: 100px;
+}
+
+.Card{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+}
+
+
+.content{
+  width: 100%;
+  display: flex;
+  padding-left: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Data{
+  justify-self: center;
+  align-items: center;
+}
+.List{
+  padding: 10px;  
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 10px;
+}
+
+
+.search-bar form{
+  height: 30px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.search-bar input{
+  height: 20px;
+}
+
+.type{
+  display: flex;
+  gap: 5px;
+}
+
+.id form{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  gap: 5px;
+}
+
+.id input{
+  width: 70px;
+}
+
+
+.filter{
+  display: flex;
+  gap: 40px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+/* .large{
+  display: flex;
+  flex-direction: column;
+} */
+
+table{
+  border-collapse: collapse;
+}
+td, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+nav{
+  color:white;
+  background-color: #3a24f0;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: 65px;
+  position: sticky;
+  top:0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 999;
+}
+
+nav .right{
+  display: flex;
+  gap: 20px;
+  font-size: large;
+  font-style: italic;
+}
+
+.Item{
+  display: flex;
+  background-color: darkblue;
+  justify-content: center;
+  width: 75%;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.right{
+  display: flex;
+}
+
+
+.stats{
+  display: flex;
+  flex-direction: column;
+}
+
+
